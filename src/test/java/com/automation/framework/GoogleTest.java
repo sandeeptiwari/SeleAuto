@@ -13,7 +13,7 @@ public class GoogleTest {
 	
 	@BeforeTest
 	public void beforeTest() {
-		logger.info("before Test ");
+		logger.error("before Test ");
 	}
 	
 	@BeforeClass
